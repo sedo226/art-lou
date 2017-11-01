@@ -3,9 +3,9 @@
 
 *requires git cli already be installed.*
 
-In your terminal run the following commands. *A simple server will need to be set up in order for certain project functions to work properly.
+*A simple server will need to be set up in order for certain project functions to work properly. Follow the steps below to run art-lou:
 
-1. clone/download repository
+1. clone/download repository<br>
 *in your terminal:*
 2. cd into art-lou
 3. python -m SimpleHTTPServer
