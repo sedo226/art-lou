@@ -1,0 +1,301 @@
+[
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "painting",
+        "image" : "img/art-1.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "painting",
+        "image" : "img/art-2.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "painting",
+        "image" : "img/art-3.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "painting",
+        "image" : "img/art-4.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "painting",
+        "image" : "img/art-5.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "painting",
+        "image" : "img/art-6.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "photography",
+        "image" : "img/photography-1.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "photography",
+        "image" : "img/photography-2.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "photography",
+        "image" : "img/photography-3.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "photography",
+        "image" : "img/photography-4.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "photography",
+        "image" : "img/photography-5.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "photography",
+        "image" : "img/photography-6.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "photography",
+        "image" : "img/photography-7.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "photography",
+        "image" : "img/photography-8.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "photography",
+        "image" : "img/photography-9.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "paint",
+        "image" : "img/paint-1.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "paint",
+        "image" : "img/paint-2.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "paint",
+        "image" : "img/paint-3.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "paint",
+        "image" : "img/paint-4.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "paint",
+        "image" : "img/paint-5.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Serra Doll",
+        "title" : "Arc 1",
+        "trueMedium" : "Screen Print - Ink",
+        "medium" : "screenPrint",
+        "image" : "img/art-5.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "mixedMedium",
+        "image" : "img/mm-1.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "furniture",
+        "image" : "img/furn-1.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "furniture",
+        "image" : "img/furn-2.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "furniture",
+        "image" : "img/furn-3.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "furniture",
+        "image" : "img/furn-4.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "furniture",
+        "image" : "img/furn-5.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "pottery",
+        "image" : "img/pot-1.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "pottery",
+        "image" : "img/pot-2.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "pottery",
+        "image" : "img/pot-4.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "pottery",
+        "image" : "img/pot-5.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "pottery",
+        "image" : "img/pot-6.jpg",
+        "info" : "#",
+        "all" : true
+    },
+    {
+        "artist" : "Vincent van Gogh",
+        "title" : "The Starry Night, 1889",
+        "trueMedium" : "Oil on canvas",
+        "medium" : "pottery",
+        "image" : "img/pot-7.jpg",
+        "info" : "#",
+        "all" : true
+    }
+    
+    
+]

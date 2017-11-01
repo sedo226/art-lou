@@ -1,0 +1,239 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+
+    <title> ART | LOU </title>
+
+    <meta name="author" content="SerraDoll">
+    <meta name="description" content="A Front End Development Project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="icon.png">
+
+    <!-- Bootstrap 4-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
+
+    <!-- Insert My Style Sheets Here-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/desktop.css">
+
+    <!-- Insert Google Fonts Here -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Mukta+Vaani" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+   
+</head>
+
+<body>
+
+<!-- Navigation -->
+
+    <!-- Mobile Nav -->
+    
+    <!-- <div class="mobile-nav-container"> -->
+        <div class="container-1">
+            <a href="index.html">
+                <img class="mobile-nav-icon" src="img/logo-dark.svg" alt="Art Lou Logo">
+            </a>
+            <div class ="hamburger-menu"></div>
+        </div>
+        <div class="container-2">
+            <nav class="mobile-nav">
+                <a class="nav-item" href="gallery.html">EXPLORE LOU GALLERY</a>
+                <a class="nav-item" href=""><button class="login_btn">log in</button></a>
+                <a class="nav-item" href=""><button class="signup_btn">sign up</button></a>
+            </nav>
+        </div>
+    <!-- </div> -->
+
+    <!-- Desktop Nav -->
+    <nav class="desktop-nav">
+        <a href="index.html">
+            <img class="mobile-nav-icon nav-item" src="img/logo-dark.svg" alt="Art Lou Logo" style="width: 42px;">
+        </a>
+        <div id="nav-right">
+            <a class="nav-item" href="gallery.html">EXPLORE LOU GALLERY</a>
+            <a class="nav-item" href=""><button class="login_btn">log in</button></a>
+            <a class="nav-item" href=""><button class="signup_btn">sign up</button></a>
+        </div>
+    </nav>
+
+
+<!-- /Navigation -->
+
+<div class="xl-container">
+<div class="page-content">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3 col-lg-2 medium-nav">
+                <h5>Medium</h5>
+                <div id="mediumMobile"> 
+                    <select class="custom-select">
+                        <option onselect="showAll()">All</option>
+                        <option onselect="showFurniture()">Furniture</option>
+                        <option onselect="showMixedMedia()">Mixed Media</option>
+                        <option onselect="showPainting()">Painting</option>
+                        <option onselect="showPhotography()">Photography</option>
+                        <option onselect="showPottery()">Pottery</option>
+                        <option onselect="showScreen()">Screen Prints</option>
+                    </select>
+                </div>
+                <div id="mediumDesktop"> 
+                    <ul>
+                        <li onclick="showAll()">
+                            <a href="#">All</a>
+                        </li>
+                        <li onclick="showFurniture()">
+                            <a href="#">Furniture</a>
+                        </li>
+                        <li onclick="showMixedMedia()">
+                            <a href="#">Mixed Media</a>
+                        </li>
+                        <li onclick="showPainting()">
+                            <a href="#">Painting</a>
+                        </li>
+                        <li onclick="showPhotography()">
+                            <a href="#">Photography</a>
+                        </li>
+                        <li onclick="showPottery()">
+                                <a href="#">Pottery</a>
+                            </li>
+                        <li onclick="showScreen()">
+                            <a href="#">Screen Prints</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm gallery m-4 p-0">
+                <div class="card-columns">
+
+                    <div id="artContainer">
+
+                        <!-- <div class="card mt-3">
+                            <img class="icon-fav" src="img/fav.svg" alt="favorite">
+                            <img class="card-img-top img-fluid" src="img/art-1.jpg" alt="image 1">
+                            <div class="card-body">
+                                <h4 class="card-title name-thumb">Artist: Vincent van Gogh</h4>
+                                <div class="thumb-description-container">
+                                    <ul>
+                                        <li class="title-thumb">Title: The Starry Night, 1889</li>
+                                        <li class="medium-thumb">Medium: Oil on canvas</li>
+                                    </ul>
+                                    <a href="#"><button type="button" class="btn btn-outline-primary">More Info</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mt-3">
+                            <img class="icon-fav" src="img/fav.svg" alt="favorite">
+                            <img class="card-img-top img-fluid" src="img/art-2.jpg" alt="image 2">
+                            <div class="card-body">
+                                <h4 class="card-title name-thumb">Artist: Vincent van Gogh</h4>
+                                <div class="thumb-description-container">
+                                    <ul>
+                                        <li class="title-thumb">Title: The Starry Night, 1889</li>
+                                        <li class="medium-thumb">Medium: Oil on canvas</li>
+                                    </ul>
+                                    <a href="#"><button type="button" class="btn btn-outline-primary">More Info</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mt-3">
+                            <img class="icon-fav" src="img/fav.svg" alt="favorite">
+                            <img class="card-img-top img-fluid" src="img/art-3.jpg" alt="image 3">
+                            <div class="card-body">
+                                <h4 class="card-title name-thumb">Artist: Vincent van Gogh</h4>
+                                <div class="thumb-description-container">
+                                    <ul>
+                                        <li class="title-thumb">Title: The Starry Night, 1889</li>
+                                        <li class="medium-thumb">Medium: Oil on canvas</li>
+                                    </ul>
+                                    <a href="#"><button type="button" class="btn btn-outline-primary">More Info</button></a>
+                                </div>
+                            </div>
+                        </div>     
+
+                        <div class="card mt-3">
+                            <img class="icon-fav" src="img/fav.svg" alt="favorite">
+                            <img class="card-img-top img-fluid" src="img/art-4.jpg" alt="image 4">
+                            <div class="card-body">
+                                <h4 class="card-title name-thumb">Artist: Vincent van Gogh</h4>
+                                <div class="thumb-description-container">
+                                    <ul>
+                                        <li class="title-thumb">Title: The Starry Night, 1889</li>
+                                        <li class="medium-thumb">Medium: Oil on canvas</li>
+                                    </ul>
+                                    <a href="#"><button type="button" class="btn btn-outline-primary">More Info</button></a>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="card mt-3">
+                            <img class="icon-fav" src="img/fav.svg" alt="favorite">
+                            <img class="card-img-top img-fluid" src="img/art-5.png" alt="image 5">
+                            <div class="card-body">
+                                <h4 class="card-title name-thumb">Artist: Vincent van Gogh</h4>
+                                <div class="thumb-description-container">
+                                    <ul>
+                                        <li class="title-thumb">Title: The Starry Night, 1889</li>
+                                        <li class="medium-thumb">Medium: Oil on canvas</li>
+                                    </ul>
+                                    <a href="#"><button type="button" class="btn btn-outline-primary">More Info</button></a>
+                                </div>
+                            </div>
+                        </div> 
+
+                        <div class="card mt-3">
+                            <img class="icon-fav" src="img/fav.svg" alt="favorite">
+                            <img class="card-img-top img-fluid" src="img/art-6.jpg" alt="image 6">
+                            <div class="card-body">
+                                <h4 class="card-title name-thumb">Artist: Vincent van Gogh</h4>
+                                <div class="thumb-description-container">
+                                    <ul>
+                                        <li class="title-thumb">Title: The Starry Night, 1889</li>
+                                        <li class="medium-thumb">Medium: Oil on canvas</li>
+                                    </ul>
+                                    <a href="#"><button type="button" class="btn btn-outline-primary">More Info</button></a>
+                                </div>
+                            </div>
+                        </div>  -->
+
+                    </div><!--/end artContainer-->
+                </div> <!--/end card-columns-->  
+            </div> <!--/end gallery column-->
+        </div>
+    </div>
+
+</div> <!--/end page-container-->
+</div> <!--/end xl-container-->
+
+<!-- Footer -->
+<footer class="main-footer">
+    <ul>
+        <li><img src="img/logo-white.svg" alt="Art Lou Logo" width="50px"></li>
+        <li>LOUISVILLE LOVIN</li>
+        <li>contact: <a href="mailto:serra.pres.doll@gmail.com">serra.pres.doll@gmail.com</a></li>
+    </ul>    
+</footer>
+<!-- /Footer -->
+
+<!-- Insert JavaScript Here -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/sort.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #25252d;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* below style attribute in partnership with the page-content styling will create a sticky footer */
+    min-height: 100vh; /* 1vh is equal to 1/100th or 1% of the height of the viewport - so this style property means that body's height will take up at least the entire height of the viewport*/
+}
+.xl-container{
+  margin: 0 auto;
+  max-width: 1900px;
+  background-color: #fff;
+}
+
+/* remove bullet points from lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* remove inheret styling from links */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.4s all ease;
+}
+a:hover {
+  text-decoration: none;
+  color: #0619C0;
+  transition: 0.2s all ease;
+}
+button {
+  transition: 0.4s all ease;
+}
+
+p {
+  font-family: 'Mukta Vaani', sans-serif;
+}
+
+
+
+

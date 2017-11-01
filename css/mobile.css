@@ -1,0 +1,262 @@
+/* ================================= 
+  Navigation & Footer Elements
+==================================== */
+
+/****** Nav ******/
+
+.mobile-nav-icon {
+    height: 100%;
+    width: auto;
+    float: left;
+} 
+
+.container-1 {
+    padding: 15px;
+    background-color: #fff;
+    width: 100%;
+    height: 10vh;
+    left: 0;
+    right: 0;
+    position: fixed;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.4);
+    z-index: 2;
+}
+
+.container-2 {
+    display: none;
+    background-color: #fff;
+    width: 100%;
+    height: fit-content;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: fixed;
+    margin-top: 10vh;
+}
+
+.mobile-nav a:first-child {
+    letter-spacing: 0.1em;
+    color: #666;
+}
+
+.hamburger-menu{
+    height: 80%;
+    width: 35px;
+    margin-top: 5px;
+    background: url("../img/hamburger.png"); 
+    background-size: cover;
+    float: right;
+}
+
+.nav-item {
+    margin: 60px 0;
+    display: block;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+
+/* hide desktop nav on mobile */
+.desktop-nav {
+    display: none;
+}
+
+/****** Log In Button ******/
+.login_btn {
+    -webkit-border-radius: 34;
+    -moz-border-radius: 34;
+    border-radius: 34px;
+    font-family: 'Lato', sans-serif;
+    color: #666666;
+    font-size: 16px;
+    background: none;
+    padding: 15px 24px 15px 25px;
+    border: solid #f5f5f5 4px;
+    text-decoration: none;
+}
+
+/****** Sign Up Button ******/
+.signup_btn {
+    -webkit-border-radius: 34;
+    -moz-border-radius: 34;
+    border-radius: 34px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    background: #F27D2F;
+    border: solid #F27D2F 1.5px;
+    padding: 15px 24px 15px 25px;
+    text-decoration: none;
+}
+
+/****** Footer ******/
+
+.main-footer{
+    display: flex;
+    background-color: #151519;
+    padding: 10px 0;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1900px;
+    width: 100%;
+}
+
+.main-footer li {
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 10px;
+    letter-spacing: 0.08em;
+}
+
+/* change email contact to color when mouse hovers */
+.main-footer a:hover{
+    color: #F27D2F;
+    text-decoration: none;
+}
+.main-footer ul{
+    margin-top: 1rem;
+}
+
+
+
+/* ================================= 
+    Page Content
+==================================== */
+
+.page-content{
+    flex: 1; /* the page-content will now stretch to fill the all the available space in the viewport */
+    margin-top: 10vh;
+}
+
+
+
+/* ================================= 
+    Home Page
+==================================== */
+
+/****** Header ******/
+.main-header-mobile{
+    text-align: center;
+    padding: 80px;
+    background: 
+        linear-gradient(to bottom, rgba(57,106,252,.8), rgba(41,23,255,.8)),
+        url('../img/header-image.png') no-repeat center;
+    background-size: cover;
+
+}
+.main-header-mobile h1{
+    font-family: 'Lato Black', sans-serif;
+    font-size: 70px;
+    color: #fff;
+    letter-spacing: .15em;
+}
+.main-header-desktop{
+    display: none;
+}
+
+/****** Half Image Section ******/
+.imageHalf {
+    background: #0619C0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#rightHalf {
+    display: none;
+}
+.mission-content {
+    width: 100%;
+    padding: 8%;
+    color: #fff;
+}
+.sub-header {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.05em;
+    margin-top: 100px;
+}
+.mission-content h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 350%;
+    font-weight: 100;
+}
+.mission-content p {
+    line-height: 1.2em;
+    letter-spacing: .05em;
+}
+
+
+
+/* ================================= 
+        Gallery
+==================================== */
+
+    
+.medium-nav {
+    background-color: #f5f5f5; 
+    font-family: 'Mukta Vaani', sans-serif;
+    color: #231F20;
+    letter-spacing: .04em;
+}
+.medium-nav h5{
+    font-size: 1.5em;
+    letter-spacing: 0.09em;
+    font-weight: 600;
+    margin: 20px 0 20px 10px;
+}
+.medium-nav li{
+    color: #666;
+    font-weight: 200;
+    margin: 10px 0 0 20px;
+}
+#mediumDesktop{
+    display: none;
+}
+#mediumMobile {
+    display: block;
+    margin: 0 0 20px 10px;
+}
+.custom-select {
+    border-bottom: 2px solid #F27D2F;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    background-color: #f5f5f5;
+}
+
+.card-columns{
+    column-count: 1;
+}
+
+.card-title{
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 0.06em;
+}
+.card-body {
+    display: block;
+}
+.card-text {
+    font-family: "Lato", sans-serif;
+}
+
+.thumb-description-container ul {
+    font-size: 14px;
+    letter-spacing: .05em;        
+}
+.thumb-description-container button{
+    border-radius: 34px;
+    border-radius: 20px;
+    border-color: #F27D2F;
+    color: #F27D2F;
+    font-size: 14px;
+}
+
+
+.icon-fav{
+    width: 50px;
+    position: absolute;
+    bottom: 150px;
+    right: 15px;
+}
