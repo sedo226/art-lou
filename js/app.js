@@ -8,9 +8,9 @@ function initHover() {
     if ($(window).width() > 769) {
         $(".card").hover(
             function () {
-                $(this).find('.card-body').slideDown(300);
+                $(this).find('.card-body').slideDown(400);
             }, function () {
-                $(this).find('.card-body').slideUp(300);
+                $(this).find('.card-body').slideUp(400);
             }
         );
     }
