@@ -79,14 +79,14 @@
             <div class="col-md-3 col-lg-2 medium-nav">
                 <h5>Medium</h5>
                 <div id="mediumMobile"> 
-                    <select class="custom-select">
-                        <option onselect="showAll()">All</option>
-                        <option onselect="showFurniture()">Furniture</option>
-                        <option onselect="showMixedMedia()">Mixed Media</option>
-                        <option onselect="showPainting()">Painting</option>
-                        <option onselect="showPhotography()">Photography</option>
-                        <option onselect="showPottery()">Pottery</option>
-                        <option onselect="showScreen()">Screen Prints</option>
+                    <select class="custom-select" onChange="someEvent(this.whatever[index].text)">
+                        <option onclick="showAll()">All</option>
+                        <option onclick="showFurniture()">Furniture</option>
+                        <option onclick="showMixedMedia()">Mixed Media</option>
+                        <option onclick="showPainting()">Painting</option>
+                        <option onclick="showPhotography()">Photography</option>
+                        <option onclick="showPottery()">Pottery</option>
+                        <option onclick="showScreen()">Screen Prints</option>
                     </select>
                 </div>
                 <div id="mediumDesktop"> 
@@ -136,12 +136,13 @@
                                     </div>
                                 </div>
                             </div>
+                        -->
 
                     </div><!--/end artContainer-->
                 </div> <!--/end card-columns-->  
             </div> <!--/end gallery column-->
-        </div>
-    </div>
+        </div><!--/end row-->
+    </div><!--/end container-fluid"-->
 
 </div> <!--/end page-container-->
 </div> <!--/end xl-container-->
