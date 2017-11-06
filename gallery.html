@@ -79,14 +79,14 @@
             <div class="col-md-3 col-lg-2 medium-nav">
                 <h5>Medium</h5>
                 <div id="mediumMobile"> 
-                    <select class="custom-select" onChange="someEvent(this.whatever[index].text)">
-                        <option onclick="showAll()">All</option>
-                        <option onclick="showFurniture()">Furniture</option>
-                        <option onclick="showMixedMedia()">Mixed Media</option>
-                        <option onclick="showPainting()">Painting</option>
-                        <option onclick="showPhotography()">Photography</option>
-                        <option onclick="showPottery()">Pottery</option>
-                        <option onclick="showScreen()">Screen Prints</option>
+                    <select class="custom-select" id="mediumSelect">
+                        <option>All</option>
+                        <option>Furniture</option>
+                        <option>Mixed Media</option>
+                        <option>Painting</option>
+                        <option>Photography</option>
+                        <option>Pottery</option>
+                        <option>Screen Prints</option>
                     </select>
                 </div>
                 <div id="mediumDesktop"> 
@@ -107,8 +107,8 @@
                             <a href="#">Photography</a>
                         </li>
                         <li onclick="showPottery()">
-                                <a href="#">Pottery</a>
-                            </li>
+                            <a href="#">Pottery</a>
+                        </li>
                         <li onclick="showScreen()">
                             <a href="#">Screen Prints</a>
                         </li>

@@ -40,15 +40,6 @@
         "title" : "The Starry Night, 1889",
         "trueMedium" : "Oil on canvas",
         "medium" : "painting",
-        "image" : "img/art-5.jpg",
-        "info" : "#",
-        "all" : true
-    },
-    {
-        "artist" : "Vincent van Gogh",
-        "title" : "The Starry Night, 1889",
-        "trueMedium" : "Oil on canvas",
-        "medium" : "painting",
         "image" : "img/art-6.jpg",
         "info" : "#",
         "all" : true

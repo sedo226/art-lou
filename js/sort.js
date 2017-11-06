@@ -1,6 +1,21 @@
-// document.addEventListener('click', (e) => {
-//     console.log(e);
-// });
+$('#mediumSelect').change(function() {
+    var val = $("#mediumSelect option:selected").text();
+    if (val === "Furniture"){
+        showFurniture();
+    } else if (val === "Mixed Media"){
+        showMixedMedia();
+    } else if (val === "Painting"){
+        showPainting();
+    } else if (val === "Photography"){
+        showPhotography();
+    } else if (val === "Pottery"){
+        showPottery();
+    } else if (val === "Screen Prints"){
+        showScreen();
+    } else {
+        showAll();
+    }
+});
 
 //fucntion for creating galleryHTML
 function gallery(jsonObj){
