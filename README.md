@@ -19,7 +19,7 @@ There are a few steps required to view this project, as I have chosen not to pub
 *requires git cli already be installed.*
 
 1. Clone/download repository
-2. In your terminal, navigate to the art-lou directory: `cd art-lou`
+2. In your terminal, navigate to the art-lou directory: `cd art-lou-master`
 3. (For Mac Users) In your terminal run: `python -m SimpleHTTPServer`
   * If you are using Window, or do not have python installed, more detailed instructions for how to setup & run a **simple local HTTP server** can be found on MDN <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server">here</a>.
 4. In your desired web browser, navigate to `http://localhost:8000/`
