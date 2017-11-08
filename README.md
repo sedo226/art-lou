@@ -13,16 +13,19 @@ The majority of the functionality has not yet been implemented - for this stage 
 
 There are a few steps required to view this project, as I have chosen not to publish it until more functionality is included (hopefully soon!). Please follow the steps below and if you run into any error feel free to email me at serra.pres.doll@gmail.com. I hope you enjoy!
 
+
+**A simple server will need to be set up in order for certain project functions to work properly. Follow the steps below to run art-lou:
+
 *requires git cli already be installed.*
 
-*A simple server will need to be set up in order for certain project functions to work properly. Follow the steps below to run art-lou:
-
-1. clone/download repository
+1. Clone/download repository
 2. In your terminal, navigate to the art-lou directory: `cd art-lou`
 3. (For Mac Users) In your terminal run: `python -m SimpleHTTPServer`
+  * If you are using Window, or do not have python installed, more detailed instructions for how to setup & run a **simple local HTTP server** can be found on MDN <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server">here</a>.
 4. In your desired web browser, navigate to `localhost:8000`
 
-*If you are using Window, or do not have python installed, more detailed instructions for how to setup & run a **simple local HTTP server** can be found on MDN <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server">here</a>.
+
+
 
 *Credit for the awesome inkdrop background video on homepage goes to CyberWebFX - Free HD Stock-Footage and Motion Graphics by CyberWebFX https://www.youtube.com/c/CyberWebFX*
 
