@@ -1,3 +1,8 @@
+//let user know log in and sign up features are not yet implemented 
+function notmplemented(){
+    alert("Sorry! This functionality has not been implemented yet.");
+}
+
 //hamburger menu mobile toggle dropdown nav
 $(".hamburger-menu").click(function () {
     $(".container-2").toggle(500);
@@ -15,3 +20,18 @@ function initHover() {
         );
     }
 }
+
+//favorite
+function favorite(){
+    $(".icon-fav").mousedown(() => {
+        $(this).attr("src", "img/favClicked.svg");
+        console.log("clicked")
+    });
+
+    $(".icon-fav").mouseup(() => {
+        $(this).attr("src", "img/favSelected.svg");
+        console.log("selected")
+    });
+}
+
+

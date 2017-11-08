@@ -48,6 +48,7 @@ xhr.onreadystatechange = function(){
         galleryHTML += '</div>'; //close div #1
         document.getElementById('artContainer').innerHTML = galleryHTML;
         initHover();
+        favorite();
     }
 };
 xhr.open('GET', 'data/all.json');
@@ -67,6 +68,7 @@ function showAll(){
             galleryHTML += '</div>'; //close div #1
             document.getElementById('artContainer').innerHTML = galleryHTML;
             initHover();
+            favorite();
         }
     };
     xhr.open('GET', 'data/all.json');
@@ -87,6 +89,7 @@ function showPhotography(){
             galleryHTML += '</div>'; //close div #1
             document.getElementById('artContainer').innerHTML = galleryHTML;
             initHover();
+            favorite();
         }
     };
     xhr.open('GET', 'data/all.json');
@@ -107,6 +110,7 @@ function showPainting(){
             galleryHTML += '</div>'; //close div #1
             document.getElementById('artContainer').innerHTML = galleryHTML;
             initHover();
+            favorite();
         }
     };
     xhr.open('GET', 'data/all.json');
@@ -127,6 +131,7 @@ function showScreen(){
             galleryHTML += '</div>'; //close div #1
             document.getElementById('artContainer').innerHTML = galleryHTML;
             initHover();
+            favorite();
         }
     };
     xhr.open('GET', 'data/all.json');
@@ -147,6 +152,7 @@ function showMixedMedia(){
             galleryHTML += '</div>'; //close div #1
             document.getElementById('artContainer').innerHTML = galleryHTML;
             initHover();
+            favorite();
         }
     };
     xhr.open('GET', 'data/all.json');
@@ -167,6 +173,7 @@ function showFurniture(){
             galleryHTML += '</div>'; //close div #1
             document.getElementById('artContainer').innerHTML = galleryHTML;
             initHover();
+            favorite();
         }
     };
     xhr.open('GET', 'data/all.json');
@@ -187,6 +194,7 @@ function showPottery(){
             galleryHTML += '</div>'; //close div #1
             document.getElementById('artContainer').innerHTML = galleryHTML;
             initHover();
+            favorite();
         }
     };
     xhr.open('GET', 'data/all.json');
