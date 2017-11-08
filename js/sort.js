@@ -29,7 +29,7 @@ function gallery(jsonObj){
     newHTML += '<li class="title-thumb"> Title: ' + jsonObj.title + '</li>';//TODO add: <li class="title-thumb">Title: The Starry Night, 1889</li>
     newHTML += '<li class="medium-thumb"> Medium: ' + jsonObj.trueMedium + '</li>'; //TODO add: <li class="medium-thumb">Medium: Oil on canvas</li>
     newHTML += '</ul>'; //close ul #1
-    newHTML += '<a href="' + jsonObj.info + '"><button type="button" class="btn btn-outline-primary">More Info</button></a>';//TODO add: <a href="#"><button type="button" class="btn btn-outline-primary">More Info</button></a>
+    newHTML += '<a href="' + jsonObj.info + '"><button type="button" class="btn btn-outline-primary" onclick="notmplemented()">More Info</button></a>';//TODO add: <a href="#"><button type="button" class="btn btn-outline-primary">More Info</button></a>
     newHTML += '</div></div></div>'; //close div #2 #3 #4
     return newHTML;
 };
