@@ -9,7 +9,7 @@ This particular project is an idea I had for an 'etsy like' web application, spe
 
 **Use for Art Enthusiasts:** people looking to purchase (or simply looking explore and appreciate) local art could come and navigate the side, learn more about local artists, and procure art via online purchase.
 
-The majority of the functionality has not yet been implemented - for this stage in the project I focused mainly on the basic UI structure for the Home and Gallery pages. As the project stands, you should be able to navigate to the Gallery page and sort *placeholder* artwork by desired Medium. You can also favorite pieces of artwork by clicking on the heart icon (located at the top right corner of each piece if viewing on desktop). 
+The majority of the functionality has not yet been implemented - for this stage in the project I focused mainly on the basic UI structure for the Home and Gallery pages. As the project stands, you should be able to navigate to the Gallery page and sort *placeholder* artwork by desired Medium. You can also favorite pieces of artwork by clicking on the heart icon (located at the top right corner of each piece if viewing on desktop). *note: if your resizing the browser window to test mobile vs desktop, please refresh the page once you reach your desired screen size as some functions are determined at the load of the screen.*
 
 There are a few steps required to view this project, as I have chosen not to publish it until more functionality is included (hopefully soon!). Please follow the steps below and if you run into any error feel free to email me at serra.pres.doll@gmail.com. I hope you enjoy!
 
