@@ -19,8 +19,10 @@ There are a few steps required to view this project, as I have chosen not to pub
 
 1. clone/download repository
 2. In your terminal, navigate to the art-lou directory: `cd art-lou`
-3a. (For Mac Users) In your terminal run: `python -m SimpleHTTPServer`
+3. (For Mac Users) In your terminal run: `python -m SimpleHTTPServer`
 4. In your desired web browser, navigate to `localhost:8000`
+
+* If you are using Window, or do not have python installed, more detailed instructions for how to setup & run a **simple local HTTP server** can be found on MDN <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server">here</a>.
 
 *credit for the awesome inkdrop background video on homepage goes to CyberWebFX - Free HD Stock-Footage and Motion Graphics by CyberWebFX https://www.youtube.com/c/CyberWebFX*
 
