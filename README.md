@@ -15,15 +15,15 @@ There are a few steps required to view this project, as I have chosen not to pub
 
 *requires git cli already be installed.*
 
-* A simple server will need to be set up in order for certain project functions to work properly. Follow the steps below to run art-lou:
+*A simple server will need to be set up in order for certain project functions to work properly. Follow the steps below to run art-lou:
 
 1. clone/download repository
 2. In your terminal, navigate to the art-lou directory: `cd art-lou`
 3. (For Mac Users) In your terminal run: `python -m SimpleHTTPServer`
 4. In your desired web browser, navigate to `localhost:8000`
 
-* If you are using Window, or do not have python installed, more detailed instructions for how to setup & run a **simple local HTTP server** can be found on MDN <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server">here</a>.
+*If you are using Window, or do not have python installed, more detailed instructions for how to setup & run a **simple local HTTP server** can be found on MDN <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server">here</a>.
 
-*credit for the awesome inkdrop background video on homepage goes to CyberWebFX - Free HD Stock-Footage and Motion Graphics by CyberWebFX https://www.youtube.com/c/CyberWebFX*
+*Credit for the awesome inkdrop background video on homepage goes to CyberWebFX - Free HD Stock-Footage and Motion Graphics by CyberWebFX https://www.youtube.com/c/CyberWebFX*
 
-*gallery images and descriptions are just placeholders to test functionality - big thanks to the contributors of unplash.com*
+*Gallery images and descriptions are just placeholders to test functionality - big thanks to the contributors of unplash.com*
