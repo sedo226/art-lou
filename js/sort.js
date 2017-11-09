@@ -18,7 +18,7 @@ $('#mediumSelect').change(function() {
 });
 
 //fucntion for creating galleryHTML
-function gallery(jsonObj){
+function gallery(jsonObj) {
     let newHTML = '<div class="card mt-3">'; //open div #2
     newHTML += '<img class="icon-fav" src="img/fav.svg" alt="favorite">';
     newHTML += '<img class="card-img-top img-fluid" src="' + jsonObj.image + '"alt="' + jsonObj.title + '">';//TODO add: <img class="card-img-top img-fluid" src="img/art-1.jpg" alt="image 1">
