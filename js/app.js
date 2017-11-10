@@ -24,20 +24,17 @@ function initHover() {
 //favorite
 
 function favorite(){
-    // let allFav = $('.icon-fav');
-        // add event listener to listen for mouseUp
-        // check if favorited
-        //  if favorited, unfavorite
-        //  if not favorited, favorite
-        
-        $(document).on('click', '.icon-fav', () => {
-            console.log("here");
-                if ( $(this).attr('src') == 'img/fav.svg') {
-                    $(this).attr('src', 'img/favSelected.svg');
-                } else  
-                $(this).attr('src', 'img/fav.svg'); 
-            }, false); 
-        }
+    
+    $('.icon-fav').each(function () {
+        $(this).on('click', () => {
+            if ($(this).attr('src') == 'img/fav.svg') {
+                $(this).attr('src', 'img/favSelected.svg');
+            } else
+                $(this).attr('src', 'img/fav.svg');
+        });
+    });
+
+}
 
 
 
