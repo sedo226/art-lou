@@ -14,7 +14,7 @@ The majority of the functionality has not yet been implemented - for this stage 
 There are a few steps required to view this project, as I have chosen not to publish it until more functionality is included (hopefully soon!). Please follow the steps below and if you run into any error feel free to email me at serra.pres.doll@gmail.com. I hope you enjoy!
 
 
-**A simple server will need to be set up in order for certain project functions to work properly. Follow the steps below to run art-lou:
+**A **simple local HTTP server** will need to be set up in order for certain project functions to work properly. Follow the steps below to run art-lou:
 
 *requires git cli already be installed.*
 
