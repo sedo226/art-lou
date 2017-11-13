@@ -45,6 +45,9 @@ a:hover {
 button {
   transition: 0.4s all ease;
 }
+button:focus {
+  outline: 0;
+}
 
 p {
   font-family: 'Mukta Vaani', sans-serif;

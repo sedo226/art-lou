@@ -22,9 +22,8 @@ function initHover() {
 }
 
 //favorite
-
 function favorite(){
-    
+
     $('.icon-fav').each(function () {
         $(this).on('click', () => {
             if ($(this).attr('src') == 'img/fav.svg') {
@@ -37,5 +36,14 @@ function favorite(){
 }
 
 
-
+//login form
+$(function() {
+    $(".login_btn").click(function() {
+        $(".modalLogin").css('display', 'block');
+    });
+    //exit
+    $(".close").click(function() {
+        $(".modalLogin").css('display', 'none');
+    });
+});
 

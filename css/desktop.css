@@ -3,6 +3,9 @@
 ======================================================================= */
 @media (min-width: 769px) {  
     
+.hideOnMobile {
+    display: block; 
+}  
   /* ================================= 
       Navigation & Footer Elements
   ==================================== */
@@ -71,15 +74,203 @@
   /* ================================= 
           Modals
   ==================================== */    
+  .modalLogin {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -166.5px;
+    margin-left: -323.5px;
+    z-index: 1025;
+    background-color: white;
+    min-width: 500px;
+    box-shadow: 0 0 1em rgba(0,0,0,0.3);
+  }  
 
+  fieldset {
+    border: none;
+  }
+
+  .or {
+    margin: 15px 15px 15px 0px;
+    padding: 10px 10px 10px 0;
+  }
+
+  .socialLogin,
+  .userLogin{
+    margin: 15px;
+    padding: 10px;
+  }
+
+  .titleForm {
+    background-color: #F27D2F;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .titleForm h1{
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+  }
+
+  .flexModal{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .userLogin{
+    align-self: center; 
+  }
+  .or{
+    align-self: center;
+  }
+  .socialLogin{
+    align-self: center; 
+  }
+
+  .socialLogin span {
+    display: block;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    letter-spacing: .1em;
+    margin-bottom: 30px;
+  }
+
+  label {
+    display: block;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    color: #666;
+    letter-spacing: .1em;
+    margin-bottom: 10px;
+  }
+
+  .or span{
+    font-family: 'Lato', sans-serif;
+    color: #999;
+    font-size: 12px;
+  }
+
+  input[type="password"],
+  input[type="email"],
+  textarea,
+  select {
+    border: 1px solid #f5f5f5;
+    border-radius: 4px;
+    font-size: 16px;
+    height: auto;
+    margin: 0;
+    outline: 0;
+    padding: 15px;
+    width: 90%;
+    color: #8a97a0;
+    margin-bottom: 30px;
+  }
+
+  .loginModalButton {
+      -webkit-border-radius: 4;
+      -moz-border-radius: 4;
+      border-radius: 4px;
+      font-family: 'Lato', sans-serif;
+      color: #666666;
+      font-size: 14px;
+      background: none;
+      padding: 12px 21px 12px 21px;
+      border: none;
+      background-color: #F27D2F;
+      text-decoration: none;
+      color: #fff;
+      margin-bottom: 20px;
+  }
+
+  #googleLogin {
+    display: block;
+    padding: 14px 34px 13px 34px;
+    color: #FFF;
+    width: 250px;
+    background-color: #dd4b39;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    border: none;
+  }
+  #googleLogin:hover{
+    background-color: #B63F32;
+  }
+
+  #facebookLogin {
+    display: block;
+    padding: 14px 34px 13px 34px;
+    color: #FFF;
+    width: 250px;
+    background-color: #3B5998;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    border: none;
+  }
+  #facebookLogin:hover{
+    background-color: #2D4677;
+  }
+
+  #twitterLogin {
+    display: block;
+    padding: 14px 34px 13px 34px;
+    color: #FFF;
+    width: 250px;
+    background-color: #00aced;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    border: none;
+  }
+  #twitterLogin:hover {
+    background-color: #0094CA;
+  }
+
+  .socialLogin {
+    text-align: center;
+  }
+
+  button.close {
+    padding: 0;
+    background: 0 0;
+    border: 0;
+    -webkit-appearance: none;
+  }
+
+  .close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+  }
+
+  fieldset {
+    margin: 0;
+  }
     
   /* ================================= 
           Page Content
   ==================================== */
       .page-content{
         margin-top: inherit;
+        max-width: 1900px;
+        margin: 0 auto;
       }
-    
     
   /* ================================= 
           Home Page
@@ -101,6 +292,7 @@
         font-size: 70px;
         color: #fff;
         letter-spacing: .15em;
+        text-shadow: 0px 2px 3px rgba(150, 150, 150, 0.54);
       }
        /****** Video Background ******/
        .fullscreen-bg {
@@ -161,15 +353,15 @@
         transition: 0.2s all ease;
         letter-spacing: .2em;
     }
-    .medium-nav a.selected{
-        color: #0619C0;
-        letter-spacing: .2em;
-    }
     #mediumDesktop{
         display: block;
     }
     #mediumMobile {
         display: none;
+    }
+
+    .contentHeight{
+      min-height: 81vh;
     }
 
     .card-columns{

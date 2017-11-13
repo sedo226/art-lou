@@ -14,6 +14,12 @@
 
     <link rel="apple-touch-icon" href="icon.png">
 
+    <!-- Bootstrap 4-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script> 
+    <script src="https://use.fontawesome.com/19403b8f52.js"></script>
+
     <!-- Insert My Style Sheets Here-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/mobile.css">
@@ -54,7 +60,7 @@
         <img class="mobile-nav-icon nav-item" src="img/logo-dark.svg" alt="Art Lou Logo" style="width: 42px;">
         <div id="nav-right">
             <a class="nav-item" href="gallery.html">EXPLORE LOU GALLERY</a>
-            <button class="login_btn nav-item" onclick="notmplemented()">log in</button>
+            <button class="login_btn nav-item">log in</button>
             <button class="signup_btn nav-item" onclick="notmplemented()">sign up</button>
         </div>
     </nav>
@@ -64,6 +70,37 @@
 <!-- <div class="xl-container"> -->
 <div class="page-content">
     
+    <div class="hideOnMobile">
+        <!-- login modal -->
+        <div class="modalLogin" id="loginModal">
+            <form action="" method="">
+                <fieldset class="titleForm">
+                    <h1>Log In to Art Lou</h1><button class="close"><i class="fa fa-times" aria-hidden="true"></i></button>
+                </fieldset>
+                <div class="flexModal">
+                    <fieldset class="userLogin">
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="user_password">
+                        <button class="loginModalButton" type="submit" onclick="notmplemented()">Log In</button>
+                    </fieldset>
+                    <fieldset class="or">
+                        <span>- or -</span>
+                    </fieldset>
+                    <fieldset class="socialLogin">
+                        <span>Connect with</span>
+                        <button id="googleLogin" disabled><i class="fa fa-google-plus" aria-hidden="true"></i></button>
+                        <button id="facebookLogin" disabled><i class="fa fa-facebook" aria-hidden="true"></i></button>
+                        <button id="twitterLogin" disabled><i class="fa fa-twitter" aria-hidden="true"></i></button>
+                    </fieldset>
+                </div>
+            </form>
+        </div>
+        <!-- end login modal -->
+    </div>
+    <!-- end hide mobile -->
+
 <!-- Header -->
 
     <div class="main-header-mobile">
