@@ -49,7 +49,4 @@ $(function() {
 
 
 //implementing sticky.js
-    //on desktop nav
 $('.sticky-container').sticky();
-    //on medium menu
-$('.sticky-container2').sticky();
